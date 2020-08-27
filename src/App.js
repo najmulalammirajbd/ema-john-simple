@@ -1,7 +1,9 @@
 import React from 'react';
 import './App.css';
 import Header from './component/Header/Header';
-import Shop from './component/Shop/Shop';
+import Coursedata from './component/Coursedata/Coursedata';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 
@@ -10,11 +12,7 @@ function App() {
   return (
     <div >
     <Header></Header>
-    <Shop></Shop>
-    
-    
-    
-    
+    <Coursedata></Coursedata>
     </div>
   );
 }

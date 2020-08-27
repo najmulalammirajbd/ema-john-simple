@@ -1,7 +1,7 @@
-.shop-container{
+.course-container{
     display: flex;
 }
-.product-container{
+.courseContainer{
     width: 70%;
     margin-left: 20px;
     margin-right: 5px;

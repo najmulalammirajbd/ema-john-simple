@@ -1,8 +1,7 @@
-import androids from './android';
-import cameras from './camera';
-import laptops from './laptop';
+import course from './course';
 
-const fakeData = [...androids, ...cameras, ...laptops];
+
+const fakedata = [...course];
 
 
 const shuffle = a => {
@@ -12,6 +11,6 @@ const shuffle = a => {
     }
 }
 
-shuffle(fakeData);
+shuffle(fakedata);
 
-export default fakeData;
+export default fakedata;
